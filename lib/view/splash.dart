@@ -15,14 +15,12 @@ class SplashView extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             DropShadowImage(
-              blurRadius: 8.0,
-              borderRadius: 8.0,
-              image: Image.asset(
-                'assets/images/logo.png',
-                width: 200,
-                height: 200,
-              ),
-            ),
+                blurRadius: 8.0,
+                borderRadius: 8.0,
+                image: const Image(
+                  image: AssetImage('assets/images/logo.png'),
+                  fit: BoxFit.contain,
+                )),
             const Text(
               'Chatpad',
               style: TextStyle(
