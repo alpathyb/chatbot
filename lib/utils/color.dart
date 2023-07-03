@@ -1,7 +1,6 @@
-import 'package:hexcolor/hexcolor.dart';
+import 'package:flutter/cupertino.dart';
 
 class Globalcolor {
-  static HexColor mainColor = HexColor('#2A9D8F');
-  static HexColor secondColor = HexColor('#2A9D8F');
-  static HexColor textColor = HexColor('#FDFDFD');
+  static Color mainColor = const Color.fromRGBO(42, 157, 143, 1);
+  static Color secondColor = const Color.fromRGBO(38, 70, 83, 1);
 }
